@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+ <name>PLG_CONTENT_MEDIAGALLERY</name>
+ <author>Dulov Aleksandr</author>
+ <creationDate>28.05.2019</creationDate>
+ <copyright>Copyright (C) 2019 Dulov Aleksandr. All rights reserved.</copyright>
+ <license>http://vgiksp.ru/</license>
+ <authorEmail>du1ov@yandex.ru</authorEmail>
+ <authorUrl>https://vk.com/dlvav</authorUrl>
+ <version>1.0</version>
+ <description>PLG_CONTENT_MEDIAGALLERY_XML_DESCRIPTION</description>
+ <files>
+	<filename plugin="mediagallery">mediagallery.php</filename>
+	<filename>index.html</filename>
+	<folder>language</folder>
+	<folder>libs</folder>
+ </files>
+ <languages>
+ <language tag="ru-RU">language/ru-RU/ru-RU.plg_content_mediagallery.ini</language>
+ <language tag="ru-RU">language/ru-RU/ru-RU.plg_content_mediagallery.sys.ini</language>
+ </languages>
+ <config>
+ </config>
+</extension>
