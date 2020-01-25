@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?> <!-- Версия XML и кодировка -->
 <extension version="3.1" type="plugin" group="content" method="upgrade">
- <name>PLG_CONTENT_MEDIAGALLERY</name>
- <author>Dulov Aleksandr</author>
- <creationDate>28.05.2019</creationDate>
- <copyright>Copyright (C) 2019 Dulov Aleksandr. All rights reserved.</copyright>
- <license>http://vgiksp.ru/</license>
- <authorEmail>du1ov@yandex.ru</authorEmail>
- <authorUrl>https://vk.com/dlvav</authorUrl>
- <version>1.0</version>
- <description>PLG_CONTENT_MEDIAGALLERY_XML_DESCRIPTION</description>
+ <name>PLG_CONTENT_MEDIAGALLERY</name> <!-- Имя плагина -->
+ <author>Dulov Aleksandr</author> <!-- Автор -->
+ <creationDate>28.05.2019</creationDate> <!-- Дата создания -->
+ <copyright>Copyright (C) 2019 Dulov Aleksandr. All rights reserved.</copyright> <!-- Права -->
+ <license>http://vgiksp.ru/</license> <!-- Лицензия -->
+ <authorEmail>du1ov@yandex.ru</authorEmail> <!-- Почта автора -->
+ <authorUrl>https://vk.com/dlvav</authorUrl> <!-- ВКонтакте автора -->
+ <version>1.0</version> <!-- Версия -->
+ <description>PLG_CONTENT_MEDIAGALLERY_XML_DESCRIPTION</description> <!-- Описание плагина -->
  <files>
-	<filename plugin="mediagallery">mediagallery.php</filename>
-	<filename>index.html</filename>
-	<folder>language</folder>
-	<folder>libs</folder>
+	<filename plugin="mediagallery">mediagallery.php</filename> <!-- Точка входа -->
+	<filename>index.html</filename> <!-- Заглушка -->
+	<folder>language</folder> <!-- Языковые пакеты -->
+	<folder>libs</folder> <!-- Библиотека -->
  </files>
  <languages>
- <language tag="ru-RU">language/ru-RU/ru-RU.plg_content_mediagallery.ini</language>
- <language tag="ru-RU">language/ru-RU/ru-RU.plg_content_mediagallery.sys.ini</language>
+ <language tag="ru-RU">language/ru-RU/ru-RU.plg_content_mediagallery.ini</language> <!-- Русский языковой пакет -->
+ <language tag="ru-RU">language/ru-RU/ru-RU.plg_content_mediagallery.sys.ini</language> <!--Русский языковой пакет -->
  </languages>
- <config>
+ <config> <!-- Настройки-->
  </config>
 </extension>
